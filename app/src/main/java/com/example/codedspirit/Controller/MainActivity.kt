@@ -1,7 +1,8 @@
-package com.example.codedspirit
+package com.example.codedspirit.Controller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.codedspirit.R
 
 class MainActivity : AppCompatActivity() {
 

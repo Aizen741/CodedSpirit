@@ -9,9 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:fullBackupContent="@xml/backup_descriptor"
-        android:allowBackup="true"
-        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        android:allowBackup=""
+        android:fullBackupContent="@xml/backup_descriptor">
         <activity android:name=".Controller.MainActivity"
             tools:ignore="InnerclassSeparator">
             <intent-filter>

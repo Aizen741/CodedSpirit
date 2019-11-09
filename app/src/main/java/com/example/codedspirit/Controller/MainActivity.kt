@@ -1,6 +1,9 @@
 package com.example.codedspirit.Controller
 
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.codedspirit.Adapter.CategoryAdapter
 import com.example.codedspirit.R
@@ -18,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         adapter = CategoryAdapter(this,DataService.categories)
         categoryListView.adapter = adapter
+    }
 
     }
-}
+

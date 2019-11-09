@@ -23,13 +23,11 @@ class CategoryAdapter(context: Context,categories: List<Category>): BaseAdapter(
             holder = ViewHolder()
             holder.categoryImage= categoryView.findViewById(R.id.categoryImage)
             holder.categoryName= categoryView.findViewById(R.id.categoryName)
-            println("I Exist for the first time")
             categoryView.tag = holder
         }else
         {
             holder = convertView.tag as ViewHolder
             categoryView = convertView
-            println("Go Green, recycle!")
         }
         val category = categories[position]
         val resourceId = context.resources.getIdentifier(category.image,"drawable",context.packageName)

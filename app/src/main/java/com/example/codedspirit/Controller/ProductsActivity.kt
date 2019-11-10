@@ -13,7 +13,7 @@ class ProductsActivity : AppCompatActivity() {
 
 
         val categoryTypr = intent.getStringExtra(EXTRA_CATEGORY)
-        
+
     }
 
 

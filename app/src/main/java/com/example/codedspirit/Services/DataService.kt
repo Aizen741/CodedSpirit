@@ -13,21 +13,21 @@ object DataService
     )
 
     val hats = listOf(
-        Product("Graphic Beanie","$18","hat01"),
-        Product("Black Hat","$20","hat02"),
-        Product("White Hat","$18","hat03"),
-        Product("Snapback Hat","$22","hat04")
+        Product("Graphic Beanie","$18","hat1"),
+        Product("Black Hat","$20","hat2"),
+        Product("White Hat","$18","hat3"),
+        Product("Snapback Hat","$22","hat4")
     )
     val hoodies = listOf(
-        Product("Gray Hoodie","$28","hoodie01"),
-        Product("Red Hoodie","$22","hoodie02"),
-        Product("Devslopes GrayHoodie","$23","hoodie03"),
-        Product("Black Hoodie","$32","hoodie04")
+        Product("Gray Hoodie","$28","hoodie1"),
+        Product("Red Hoodie","$22","hoodie2"),
+        Product("Devslopes GrayHoodie","$23","hoodie3"),
+        Product("Black Hoodie","$32","hoodie4")
     )
     val shirts = listOf(
-        Product("Black Shirt","$28","shirt01"),
-        Product("Badge Light Grey","$30","shirt02"),
+        Product("Black Shirt","$28","shirt1"),
+        Product("Badge Light Grey","$30","shirt2"),
         Product("Hustle","$38","shirt03"),
-        Product("Kickflip Studios","$22","shirt04")
+        Product("Kickflip Studios","$22","shirt4")
     )
 }
